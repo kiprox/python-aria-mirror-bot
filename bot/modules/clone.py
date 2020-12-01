@@ -6,7 +6,6 @@ from bot.helper.telegram_helper.bot_commands import BotCommands
 from bot.helper.ext_utils.bot_utils import new_thread
 from bot import dispatcher
 
-
 @new_thread
 def cloneNode(update,context):
     args = update.message.text.split(" ",maxsplit=1)
